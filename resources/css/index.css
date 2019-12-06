@@ -1,0 +1,43 @@
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url("../img/logo/transparent-logo.png") center no-repeat #fff;
+}
+#calendar {
+    width: 100%;
+    height: 100%;
+}
+td {
+    width: calc(98vw / 7);
+    height: calc(55vw / 7);
+    vertical-align: top;
+    font-size: 24px;
+}
+table {
+    border: 1px solid white;
+    backdrop-filter: blur(5px);
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+body {
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-image: url('../img/brown-house-surrounded-by-snow-covered-field-near-snow-179845.jpg');
+    overflow: hidden;
+}
+.toast {
+    position: relative;
+}
